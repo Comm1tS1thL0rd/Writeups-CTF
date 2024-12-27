@@ -15,7 +15,7 @@ Now with python(3.9.6) i wrote a series of codes to extract the image from the p
 
 Run this in order to get through extract.py > remove.py > rmline.py > join.py > convert.py.
 
-with extract i extracted the hex data from the pcap
+with extract i extracted the hex data from the pcap, while extraction i made sure to take data in separate lines so i can do editing on it as much as possible.
 with remove i removed the first 84 characters from all lines of data as that is not related to the file data that we need
 with rmline i removed the first line of hex which is a request command line and not the image data
 with join i joined all the hex data in 1 line
